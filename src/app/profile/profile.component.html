@@ -1,25 +1,6 @@
 <app-search-form (addSearch)="findProfile($event)"></app-search-form>
  <div>
-     <!-- <p>{{profiles.name}}<small>({{profiles.login}})</small></p>
-    <img src="{{profiles.avatar_url}}" alt="profile image">
-    <p>public repos{{profiles.public_repos}}</p>
-    <p>followers: {{profiles.followers}}</p>
-    <p>following: {{profiles.following}}</p>
-</div>
-<div>
-    <h4>Repositories</h4>
-    <ul>
-    <li *ngFor="let repo of repos">
-        <div>
-            <div>
-                <h4><a href="{{repo.html_url}}">
-                    {{repo.name}}</a></h4>
-                <p>{{repo.description}}</p>
-            </div>
-        </div>
-    </li>
-</ul>
-</div>  --> 
+     
 
 <div *ngIf="profiles">
     <div class="panel panel-default">
