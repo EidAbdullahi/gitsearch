@@ -1,12 +1,12 @@
-<form action="" class="search-form">
+<!-- <form action="" class="search-form">
     <div class="form-group">
         <input type="text" class="form-control" placeholder="Search git users with username" 
         [(ngModel)]="username" name="username">
         <button type="submit" class="btn btn-success btn-sm" (click)="findProfile(username)">search username
         </button>
     </div>
-</form> 
- <!-- <div>
+</form>  -->
+   <div>
     <p>{{profiles.name}}<small>({{profiles.login}})</small></p>
     <img src="{{profiles.avatar_url}}" alt="profile image">
     <p>public repos{{profiles.public_repos}}</p>
@@ -28,7 +28,7 @@
 </ul>
 </div>  -->
 
-<div *ngIf="profiles">
+ <div *ngIf="profiles">
     <div class="panel panel-default">
         <div class="panel-heading">
             {{profiles.name}}<small>({{profiles.login}})</small>
@@ -48,7 +48,7 @@
                         <li class="list-group-items" *ngIf="profiles.email"><a href="emailto:{{profiles.email}}"></a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
+                 <div class="col-sm-4">
                     <div>
                         <p>
                             <span class="label label-default">{{profiles.followers}} followers</span><br>
@@ -72,5 +72,4 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div>  -->
