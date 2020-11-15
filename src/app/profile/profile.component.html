@@ -1,6 +1,6 @@
 <app-search-form (addSearch)="findProfile($event)"></app-search-form>
  <div>
-    <p>{{profiles.name}}<small>({{profiles.login}})</small></p>
+     <!-- <p>{{profiles.name}}<small>({{profiles.login}})</small></p>
     <img src="{{profiles.avatar_url}}" alt="profile image">
     <p>public repos{{profiles.public_repos}}</p>
     <p>followers: {{profiles.followers}}</p>
@@ -19,7 +19,7 @@
         </div>
     </li>
 </ul>
-</div>  -->
+</div>  --> 
 
 <div *ngIf="profiles">
     <div class="panel panel-default">
