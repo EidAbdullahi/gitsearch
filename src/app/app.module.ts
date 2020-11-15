@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SearchFormComponent } from './search-form/search-form.component';
 // import { ProfileService } from './profile.service';
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     ProfileComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    SearchFormComponent
   ],
   imports: [
     BrowserModule,

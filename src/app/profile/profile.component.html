@@ -1,13 +1,5 @@
-<!-- <form action="" class="search-form">
-    <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search git users with username" 
-        [(ngModel)]="username" name="username">
-        <button type="submit" class="btn btn-success btn-sm" (click)="findProfile(username)">search username
-        </button>
-    </div>
-</form>   -->
-
-<div>
+<app-search-form (addSearch)="findProfile($event)"></app-search-form>
+ <div>
     <p>{{profiles.name}}<small>({{profiles.login}})</small></p>
     <img src="{{profiles.avatar_url}}" alt="profile image">
     <p>public repos{{profiles.public_repos}}</p>
@@ -27,7 +19,7 @@
         </div>
     </li>
 </ul>
-</div> 
+</div>  -->
 
 <div *ngIf="profiles">
     <div class="panel panel-default">
