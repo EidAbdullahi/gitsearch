@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProfileService implements OnInit{
   private clientid = 'Iv1.b39a9ac1fc56ff9d';
-  private clientsecret = ' 6bf06bf90964d4b26d7518e90aaaf35c5cc7c0a9';
+  private clientsecret = '6bf06bf90964d4b26d7518e90aaaf35c5cc7c0a9';
 
   constructor(private http: HttpClient) {
     console.log("service is now ready");
