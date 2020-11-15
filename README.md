@@ -8,7 +8,7 @@ Features
 Search github username. Show Profile. Show Repo names and Description.
 
 Technologies used
-Typescript html bootstrap Javascript figma: (https://www.figma.com/file/LashKhdUxgX3GIE4yc7Umw/gitsearch?node-id=0%3A1)
+Typescript html bootstrap Javascript figma:
 
 Running live server
 click (https://EidAbdullahi.github.io/gitsearch/profile) to view the live application.
