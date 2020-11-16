@@ -11,7 +11,7 @@ Technologies used
 Typescript html bootstrap Javascript figma:
 
 Running live server
-click (https://EidAbdullahi.github.io/gitsearch/profile) to view the live application.
+click (https://eidabdullahi.github.io/gitsearch/) to view the live application.
 
 Running end-to-end tests
 Run ng e2e to execute the end-to-end tests via Protractor.
